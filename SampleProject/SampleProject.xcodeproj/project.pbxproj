@@ -18,6 +18,9 @@
 		04A13525164F27500070B6AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A13524164F27500070B6AE /* Default-568h@2x.png */; };
 		04A13528164F27500070B6AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13527164F27500070B6AE /* ViewController.m */; };
 		04A1352B164F27500070B6AE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A13529164F27500070B6AE /* ViewController.xib */; };
+		04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13532164F2EE70070B6AE /* Sample_NSString.m */; };
+		04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13535164F2FDB0070B6AE /* Sample_Blocks.m */; };
+		04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13538164F32210070B6AE /* Sample_Dic&Array.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		04A13526164F27500070B6AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04A13527164F27500070B6AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A1352A164F27500070B6AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		04A13531164F2EE70070B6AE /* Sample_NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_NSString.h; sourceTree = "<group>"; };
+		04A13532164F2EE70070B6AE /* Sample_NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_NSString.m; sourceTree = "<group>"; };
+		04A13534164F2FDB0070B6AE /* Sample_Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Blocks.h; sourceTree = "<group>"; };
+		04A13535164F2FDB0070B6AE /* Sample_Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_Blocks.m; sourceTree = "<group>"; };
+		04A13537164F32210070B6AE /* Sample_Dic&Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sample_Dic&Array.h"; sourceTree = "<group>"; };
+		04A13538164F32210070B6AE /* Sample_Dic&Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sample_Dic&Array.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				04A13527164F27500070B6AE /* ViewController.m */,
 				04A13529164F27500070B6AE /* ViewController.xib */,
 				04A13515164F27500070B6AE /* Supporting Files */,
+				04A13531164F2EE70070B6AE /* Sample_NSString.h */,
+				04A13532164F2EE70070B6AE /* Sample_NSString.m */,
+				04A13534164F2FDB0070B6AE /* Sample_Blocks.h */,
+				04A13535164F2FDB0070B6AE /* Sample_Blocks.m */,
+				04A13537164F32210070B6AE /* Sample_Dic&Array.h */,
+				04A13538164F32210070B6AE /* Sample_Dic&Array.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -176,6 +191,9 @@
 				04A1351B164F27500070B6AE /* main.m in Sources */,
 				04A1351F164F27500070B6AE /* AppDelegate.m in Sources */,
 				04A13528164F27500070B6AE /* ViewController.m in Sources */,
+				04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */,
+				04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */,
+				04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
