@@ -21,6 +21,7 @@
 		04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13532164F2EE70070B6AE /* Sample_NSString.m */; };
 		04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13535164F2FDB0070B6AE /* Sample_Blocks.m */; };
 		04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13538164F32210070B6AE /* Sample_Dic&Array.m */; };
+		04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E57B16B5189100A0232E /* Sample_GData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		04A13535164F2FDB0070B6AE /* Sample_Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_Blocks.m; sourceTree = "<group>"; };
 		04A13537164F32210070B6AE /* Sample_Dic&Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sample_Dic&Array.h"; sourceTree = "<group>"; };
 		04A13538164F32210070B6AE /* Sample_Dic&Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sample_Dic&Array.m"; sourceTree = "<group>"; };
+		04A7E57A16B5189100A0232E /* Sample_GData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_GData.h; sourceTree = "<group>"; };
+		04A7E57B16B5189100A0232E /* Sample_GData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_GData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				04A13535164F2FDB0070B6AE /* Sample_Blocks.m */,
 				04A13537164F32210070B6AE /* Sample_Dic&Array.h */,
 				04A13538164F32210070B6AE /* Sample_Dic&Array.m */,
+				04A7E57A16B5189100A0232E /* Sample_GData.h */,
+				04A7E57B16B5189100A0232E /* Sample_GData.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */,
 				04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */,
 				04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */,
+				04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,7 @@
 				04A13530164F27500070B6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
