@@ -23,6 +23,7 @@
 		04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13538164F32210070B6AE /* Sample_Dic&Array.m */; };
 		04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E57B16B5189100A0232E /* Sample_GData.m */; };
 		04F46B9F16BCA359008C597C /* Sample_dispach.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F46B9E16BCA359008C597C /* Sample_dispach.m */; };
+		04F46BA516BCB730008C597C /* Sample_FileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F46BA416BCB72F008C597C /* Sample_FileOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		04A7E57B16B5189100A0232E /* Sample_GData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_GData.m; sourceTree = "<group>"; };
 		04F46B9D16BCA358008C597C /* Sample_dispach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_dispach.h; sourceTree = "<group>"; };
 		04F46B9E16BCA359008C597C /* Sample_dispach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_dispach.m; sourceTree = "<group>"; };
+		04F46BA316BCB72F008C597C /* Sample_FileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_FileOperation.h; sourceTree = "<group>"; };
+		04F46BA416BCB72F008C597C /* Sample_FileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_FileOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				04A7E57B16B5189100A0232E /* Sample_GData.m */,
 				04F46B9D16BCA358008C597C /* Sample_dispach.h */,
 				04F46B9E16BCA359008C597C /* Sample_dispach.m */,
+				04F46BA316BCB72F008C597C /* Sample_FileOperation.h */,
+				04F46BA416BCB72F008C597C /* Sample_FileOperation.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */,
 				04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */,
 				04F46B9F16BCA359008C597C /* Sample_dispach.m in Sources */,
+				04F46BA516BCB730008C597C /* Sample_FileOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
