@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A0EB8417220A2C002C8A74 /* Sample_Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */; };
 		04A1350F164F27500070B6AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1350E164F27500070B6AE /* UIKit.framework */; };
 		04A13511164F27500070B6AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A13510164F27500070B6AE /* Foundation.framework */; };
 		04A13513164F27500070B6AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A13512164F27500070B6AE /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A0EB8217220A2C002C8A74 /* Sample_Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Calendar.h; sourceTree = "<group>"; };
+		04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_Calendar.m; sourceTree = "<group>"; };
 		04A1350A164F27500070B6AE /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1350E164F27500070B6AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04A13510164F27500070B6AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				04F46B9E16BCA359008C597C /* Sample_dispach.m */,
 				04F46BA316BCB72F008C597C /* Sample_FileOperation.h */,
 				04F46BA416BCB72F008C597C /* Sample_FileOperation.m */,
+				04A0EB8217220A2C002C8A74 /* Sample_Calendar.h */,
+				04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */,
 				04F46B9F16BCA359008C597C /* Sample_dispach.m in Sources */,
 				04F46BA516BCB730008C597C /* Sample_FileOperation.m in Sources */,
+				04A0EB8417220A2C002C8A74 /* Sample_Calendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
