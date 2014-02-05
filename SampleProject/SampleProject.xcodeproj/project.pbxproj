@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048A04C51764CA0200A3B667 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A04C41764CA0200A3B667 /* Util.m */; };
 		04A0EB8417220A2C002C8A74 /* Sample_Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */; };
 		04A1350F164F27500070B6AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1350E164F27500070B6AE /* UIKit.framework */; };
 		04A13511164F27500070B6AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A13510164F27500070B6AE /* Foundation.framework */; };
@@ -23,11 +24,14 @@
 		04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13535164F2FDB0070B6AE /* Sample_Blocks.m */; };
 		04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A13538164F32210070B6AE /* Sample_Dic&Array.m */; };
 		04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E57B16B5189100A0232E /* Sample_GData.m */; };
+		04B2B1A018A300FC001B72A5 /* Sample_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B19F18A300FC001B72A5 /* Sample_TextView.m */; };
 		04F46B9F16BCA359008C597C /* Sample_dispach.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F46B9E16BCA359008C597C /* Sample_dispach.m */; };
 		04F46BA516BCB730008C597C /* Sample_FileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F46BA416BCB72F008C597C /* Sample_FileOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048A04C31764CA0200A3B667 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		048A04C41764CA0200A3B667 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		04A0EB8217220A2C002C8A74 /* Sample_Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Calendar.h; sourceTree = "<group>"; };
 		04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_Calendar.m; sourceTree = "<group>"; };
 		04A1350A164F27500070B6AE /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +58,8 @@
 		04A13538164F32210070B6AE /* Sample_Dic&Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sample_Dic&Array.m"; sourceTree = "<group>"; };
 		04A7E57A16B5189100A0232E /* Sample_GData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_GData.h; sourceTree = "<group>"; };
 		04A7E57B16B5189100A0232E /* Sample_GData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_GData.m; sourceTree = "<group>"; };
+		04B2B19E18A300FC001B72A5 /* Sample_TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sample_TextView.h; path = "../../../../Dropbox/personal/アプリ/OmezameTenki/OmezameTenki/ViewController/Sample_TextView.h"; sourceTree = "<group>"; };
+		04B2B19F18A300FC001B72A5 /* Sample_TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sample_TextView.m; path = "../../../../Dropbox/personal/アプリ/OmezameTenki/OmezameTenki/ViewController/Sample_TextView.m"; sourceTree = "<group>"; };
 		04F46B9D16BCA358008C597C /* Sample_dispach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_dispach.h; sourceTree = "<group>"; };
 		04F46B9E16BCA359008C597C /* Sample_dispach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_dispach.m; sourceTree = "<group>"; };
 		04F46BA316BCB72F008C597C /* Sample_FileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_FileOperation.h; sourceTree = "<group>"; };
@@ -104,6 +110,8 @@
 		04A13514164F27500070B6AE /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				048A04C31764CA0200A3B667 /* Util.h */,
+				048A04C41764CA0200A3B667 /* Util.m */,
 				04A1351D164F27500070B6AE /* AppDelegate.h */,
 				04A1351E164F27500070B6AE /* AppDelegate.m */,
 				04A13526164F27500070B6AE /* ViewController.h */,
@@ -124,6 +132,8 @@
 				04F46BA416BCB72F008C597C /* Sample_FileOperation.m */,
 				04A0EB8217220A2C002C8A74 /* Sample_Calendar.h */,
 				04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */,
+				04B2B19E18A300FC001B72A5 /* Sample_TextView.h */,
+				04B2B19F18A300FC001B72A5 /* Sample_TextView.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -213,11 +223,13 @@
 				04A13528164F27500070B6AE /* ViewController.m in Sources */,
 				04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */,
 				04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */,
+				04B2B1A018A300FC001B72A5 /* Sample_TextView.m in Sources */,
 				04A13539164F32210070B6AE /* Sample_Dic&Array.m in Sources */,
 				04A7E57C16B5189100A0232E /* Sample_GData.m in Sources */,
 				04F46B9F16BCA359008C597C /* Sample_dispach.m in Sources */,
 				04F46BA516BCB730008C597C /* Sample_FileOperation.m in Sources */,
 				04A0EB8417220A2C002C8A74 /* Sample_Calendar.m in Sources */,
+				048A04C51764CA0200A3B667 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
