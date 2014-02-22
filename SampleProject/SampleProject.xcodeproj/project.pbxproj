@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F19C0318B8C67100C368F8 /* Sample_NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F19C0218B8C67100C368F8 /* Sample_NSAttributedString.m */; };
 		048A04C51764CA0200A3B667 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A04C41764CA0200A3B667 /* Util.m */; };
 		04A0EB8417220A2C002C8A74 /* Sample_Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */; };
 		04A1350F164F27500070B6AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1350E164F27500070B6AE /* UIKit.framework */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F19C0118B8C67100C368F8 /* Sample_NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_NSAttributedString.h; sourceTree = "<group>"; };
+		00F19C0218B8C67100C368F8 /* Sample_NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample_NSAttributedString.m; sourceTree = "<group>"; };
 		048A04C31764CA0200A3B667 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		048A04C41764CA0200A3B667 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		04A0EB8217220A2C002C8A74 /* Sample_Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample_Calendar.h; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				04A0EB8317220A2C002C8A74 /* Sample_Calendar.m */,
 				04B2B1A118A30322001B72A5 /* Sample_TextView.h */,
 				04B2B1A218A30322001B72A5 /* Sample_TextView.m */,
+				00F19C0118B8C67100C368F8 /* Sample_NSAttributedString.h */,
+				00F19C0218B8C67100C368F8 /* Sample_NSAttributedString.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			files = (
 				04A1351B164F27500070B6AE /* main.m in Sources */,
 				04A1351F164F27500070B6AE /* AppDelegate.m in Sources */,
+				00F19C0318B8C67100C368F8 /* Sample_NSAttributedString.m in Sources */,
 				04A13528164F27500070B6AE /* ViewController.m in Sources */,
 				04A13533164F2EE70070B6AE /* Sample_NSString.m in Sources */,
 				04A13536164F2FDB0070B6AE /* Sample_Blocks.m in Sources */,
