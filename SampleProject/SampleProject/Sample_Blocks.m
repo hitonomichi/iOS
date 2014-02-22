@@ -10,6 +10,8 @@
 
 @implementation Sample_Blocks
 
+typedef int (^Add)(int x, int y);
+
 -(void)sample_001 {
 
     /*
@@ -42,6 +44,12 @@
     void (^hello)(void) = dic[@"method"];
     hello();
     
+    //typedef の書き方
+    Add add = ^(int x, int y) {
+        return x + y;
+    };
+    int r = add(10,1);
+    NSLog(@"result : %d", r);
 
 }
 @end
