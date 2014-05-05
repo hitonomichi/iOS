@@ -32,7 +32,7 @@
     // hogehogeディレクトリorファイルのパス追加
     path = [path stringByAppendingPathComponent:@"hogehoge"];
     // 拡張子追加
-    path = [path stringByAppendingPathComponent:@"pdf"];
+    path = [path stringByAppendingPathExtension:@"pdf"];
     
     
 }
